@@ -1,0 +1,28 @@
+23:33:14.713 [main] INFO  Resources.Base - assigned rest-assured base uri
+23:33:15.054 [main] INFO  Resources.Base - request object is been created
+23:33:19.277 [main] INFO  Resources.Base - response object is been created
+23:33:19.465 [main] INFO  Resources.Base - status code value for request is 200
+23:37:04.597 [main] INFO  Resources.Base - assigned rest-assured base uri
+23:37:04.981 [main] INFO  Resources.Base - request object is been created
+23:37:08.988 [main] INFO  Resources.Base - response object is been created
+23:37:11.256 [main] INFO  Resources.Base - status code value for request is 200
+23:39:24.115 [main] INFO  Resources.Base - assigned rest-assured base uri
+23:39:24.526 [main] INFO  Resources.Base - request object is been created
+23:39:28.522 [main] INFO  Resources.Base - response object is been created
+23:39:30.665 [main] INFO  Resources.Base - status code value for request is 200
+23:41:21.706 [main] INFO  Resources.Base - assigned rest-assured base uri
+23:41:22.160 [main] INFO  Resources.Base - request object is been created
+23:41:26.390 [main] INFO  Resources.Base - response object is been created
+23:41:28.439 [main] INFO  Resources.Base - status code value for request is 200
+23:42:07.271 [main] INFO  Resources.Base - assigned rest-assured base uri
+23:42:07.686 [main] INFO  Resources.Base - request object is been created
+23:42:11.625 [main] INFO  Resources.Base - response object is been created
+23:42:13.575 [main] INFO  Resources.Base - status code value for request is 200
+23:44:39.352 [main] INFO  Resources.Base - assigned rest-assured base uri
+23:44:39.745 [main] INFO  Resources.Base - request object is been created
+23:44:44.066 [main] INFO  Resources.Base - response object is been created
+23:44:46.831 [main] INFO  Resources.Base - status code value for request is 200
+23:52:28.254 [main] INFO  Resources.Base - assigned rest-assured base uri
+23:52:28.586 [main] INFO  Resources.Base - request object is been created
+23:52:32.332 [main] INFO  Resources.Base - response object is been created
+23:52:34.162 [main] INFO  Resources.Base - status code value for request is 200
