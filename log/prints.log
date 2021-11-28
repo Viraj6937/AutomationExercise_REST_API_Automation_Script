@@ -26,3 +26,25 @@
 23:52:28.586 [main] INFO  Resources.Base - request object is been created
 23:52:32.332 [main] INFO  Resources.Base - response object is been created
 23:52:34.162 [main] INFO  Resources.Base - status code value for request is 200
+11:39:44.699 [main] INFO  Resources.Base - base uri is been provided
+11:39:44.989 [main] INFO  Resources.Base - request object is been created
+11:39:48.660 [main] INFO  Resources.Base - response object is been created
+11:39:50.395 [main] INFO  Resources.Base - status code is 200
+11:41:08.379 [main] INFO  Resources.Base - base uri is been provided
+11:41:08.706 [main] INFO  Resources.Base - request object is been created
+11:41:12.455 [main] INFO  Resources.Base - response object is been created
+11:41:14.195 [main] INFO  Resources.Base - status code is 200
+11:42:35.839 [main] INFO  Resources.Base - base uri is been provided
+11:42:36.322 [main] INFO  Resources.Base - request object is been created
+11:42:40.638 [main] INFO  Resources.Base - response object is been created
+11:42:42.518 [main] INFO  Resources.Base - status code is 200
+17:16:09.862 [main] INFO  Resources.Base - base uri is been created
+17:16:10.181 [main] INFO  Resources.Base - request object is been created
+17:16:14.033 [main] INFO  Resources.Base - response object is been created
+17:16:14.221 [main] INFO  Resources.Base - status code for request is 200
+17:19:51.013 [main] INFO  Resources.Base - base uri is been created
+17:19:51.402 [main] INFO  Resources.Base - request object is been created
+17:19:55.161 [main] INFO  Resources.Base - response object is been created
+17:19:56.810 [main] INFO  Resources.Base - responseCode value for request is405
+17:19:56.841 [main] INFO  Resources.Base - message in response body for request isThis request method is not supported.
+17:19:56.865 [main] INFO  Resources.Base - status code for request is 200

@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,17 +104,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Products.All_Product_List_GET_Request" class="method navigator-link" hash-for-method="verifyResponseBodyValueForRequest">verifyResponseBodyValueForRequest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Brands.All_Brand_List_PUT_Request" class="method navigator-link" hash-for-method="verifyResponseBodyValue">verifyResponseBodyValue</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Products.All_Product_List_GET_Request" class="method navigator-link" hash-for-method="verifyResponseHeaderValue">verifyResponseHeaderValue</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Products.All_Product_List_GET_Request" class="method navigator-link" hash-for-method="verifyStatusCode">verifyStatusCode</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Brands.All_Brand_List_PUT_Request" class="method navigator-link" hash-for-method="verifyStatusCode">verifyStatusCode</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -132,21 +127,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Products.All_Product_List_GET_Request</span>
+              <span class="class-name">Brands.All_Brand_List_PUT_Request</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyResponseBodyValueForRequest">
-                  </a> <!-- verifyResponseBodyValueForRequest -->
-                  <span class="method-name">verifyResponseBodyValueForRequest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyResponseHeaderValue">
-                  </a> <!-- verifyResponseHeaderValue -->
-                  <span class="method-name">verifyResponseHeaderValue</span>
+                  <a name="verifyResponseBodyValue">
+                  </a> <!-- verifyResponseBodyValue -->
+                  <span class="method-name">verifyResponseBodyValue</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -171,11 +159,11 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;Resources.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test All_Product_List_GET_Request&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test All_Brand_List_PUT_Request&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Products.All_Product_List_GET_Request&quot;/&gt;
+      &lt;class name=&quot;Brands.All_Brand_List_PUT_Request&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test All_Product_List_GET_Request --&gt;
+  &lt;/test&gt; &lt;!-- Test All_Brand_List_PUT_Request --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,7 +175,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test All_Product_List_GET_Request (1 class)</span>
+                <span class="test-name">Test All_Brand_List_PUT_Request (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -213,19 +201,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyResponseBodyValueForRequest')
-data.setCell(0, 2, 'Products.All_Product_List_GET_Request')
-data.setCell(0, 3, 1682);
+data.setCell(0, 1, 'verifyResponseBodyValue')
+data.setCell(0, 2, 'Brands.All_Brand_List_PUT_Request')
+data.setCell(0, 3, 1539);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyResponseHeaderValue')
-data.setCell(1, 2, 'Products.All_Product_List_GET_Request')
-data.setCell(1, 3, 10);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyStatusCode')
-data.setCell(2, 2, 'Products.All_Product_List_GET_Request')
-data.setCell(2, 3, 3);
+data.setCell(1, 1, 'verifyStatusCode')
+data.setCell(1, 2, 'Brands.All_Brand_List_PUT_Request')
+data.setCell(1, 3, 12);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -256,22 +240,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Products.All_Product_List_GET_Request</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Brands.All_Brand_List_PUT_Request</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeRequest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">verifyResponseBodyValueForRequest</span>
-                <span class="method-start">5715 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyResponseHeaderValue</span>
-                <span class="method-start">7406 ms</span>
+                <span class="method-name">verifyResponseBodyValue</span>
+                <span class="method-start">5819 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyStatusCode</span>
-                <span class="method-start">7424 ms</span>
+                <span class="method-start">7369 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

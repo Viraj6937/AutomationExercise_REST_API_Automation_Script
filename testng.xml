@@ -6,10 +6,31 @@
  <listener class-name="Resources.Listeners" />
 </listeners>
 
-  <test thread-count="5" name="Test All_Product_List_GET_Request">
-  
+<!--   <test thread-count="5" name="Test All_Product_List_GET_Request">
    <classes>
       <class name="Products.All_Product_List_GET_Request"/>
    </classes> 
-  </test> <!-- Test -->
+  </test> 
+  
+  <test name="Test All_Product_List_POST_Request">
+   <classes>
+     <class name="Products.All_Product_List_POST_Request"/>
+   </classes>
+  </test>
+  
+  <test name="Test All_Brand_List_GET_Request">
+    <classes>
+       <class name="Brands.All_Brand_List_GET_Request"/>
+    </classes>
+  </test> -->
+  
+  <test name="Test All_Brand_List_PUT_Request">
+    <classes>
+       <class name="Brands.All_Brand_List_PUT_Request"/>
+    </classes>
+  </test>
+  
+  
+  
+   <!-- Test -->
 </suite> <!-- Suite -->
